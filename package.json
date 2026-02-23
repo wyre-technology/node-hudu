@@ -1,6 +1,6 @@
 {
   "name": "@wyre-technology/node-hudu",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -20,7 +20,12 @@
       }
     }
   },
-  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -32,7 +37,14 @@
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["hudu", "it-documentation", "msp", "api", "typescript", "documentation-platform"],
+  "keywords": [
+    "hudu",
+    "it-documentation",
+    "msp",
+    "api",
+    "typescript",
+    "documentation-platform"
+  ],
   "author": "Wyre Technology",
   "license": "Apache-2.0",
   "repository": {
