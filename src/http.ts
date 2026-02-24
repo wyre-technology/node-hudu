@@ -98,11 +98,12 @@ export class HttpClient {
       return {} as T;
     }
 
+    const responseText = await response.text();
     let responseBody: unknown;
     try {
-      responseBody = await response.json();
+      responseBody = JSON.parse(responseText);
     } catch {
-      responseBody = await response.text();
+      responseBody = responseText;
     }
 
     switch (response.status) {
