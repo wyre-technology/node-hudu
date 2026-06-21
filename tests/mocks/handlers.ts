@@ -25,9 +25,7 @@ export const handlers = [
     return HttpResponse.json(fixtures.companies.created);
   }),
 
-  http.put(`${BASE_URL}/api/v1/companies/:id`, ({ params }) => {
-    const url = new URL(`${BASE_URL}/api/v1/companies/${params['id'] as string}`);
-    // Check if this is an archive/unarchive request by looking at the original request URL
+  http.put(`${BASE_URL}/api/v1/companies/:id`, () => {
     return HttpResponse.json(fixtures.companies.updated);
   }),
 
