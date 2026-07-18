@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/wyre-technology/node-hudu/compare/v1.0.2...v1.0.3) (2026-07-18)
+
+
+### Bug Fixes
+
+* **tsconfig:** restore include/exclude globs ([#37](https://github.com/wyre-technology/node-hudu/issues/37)) ([e099d06](https://github.com/wyre-technology/node-hudu/commit/e099d0657246a858ecd64ebe98ceea387086f4e1))
+
 ## [1.0.2](https://github.com/wyre-technology/node-hudu/compare/v1.0.1...v1.0.2) (2026-02-24)
 
 
